@@ -1,0 +1,7 @@
+The structore of a vtk file is the following:
+-Header
+-Coordinates of points. One vertex has 3 coordinates (x,y,z). 
+	In one line we have 3 points (9 coordinates)
+-Indices of one cell. Every cell has 3 numbers which are the indices of the point list.
+These are the most importent part of the file. If you have a vtk file which has more subpart,
+they stand for the eigenvectors of the cells or colors of the cells and etc.

@@ -1,5 +1,17 @@
 # Statistical Shape Modeling
 
+First step : Installing the requirements 
+
+ Type the following command line to install all the necessary packages to run the code :
+            
+    pip install -r requirements.txt 
+
+Second step : Running the demonstration 
+
+ Go to the file Statistical analysis/Faces_reconstruction/Gaussian_processes_faces, run the jupyter code and remember to close the visualization popping windows so that the code executes the other cells. 
+
+ The demonstration shows the shapes reconstruction on the faces dataset after the alignment, data augmentation and processes prallelization.
+
 
 ## Important bibliographic refererences :
 
